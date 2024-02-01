@@ -1,0 +1,73 @@
+body {
+    background-color: #ebebeb;
+}
+
+
+
+.rostro {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 180px;
+    z-index: 1;
+}
+
+.boca {
+    width: 230px;
+    height: 104px;
+    background-color: white;
+    position: absolute;
+    left: 223px;
+    border-radius: 1px 1px 100px 100px;
+    z-index: 2;
+    top: 288px;
+}
+
+.oreja-1 {
+    width: 188px;
+    height: 245px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 82px;
+    top: 19px;
+    transform: rotate(-41deg);
+}
+
+.oreja-2 {
+    width: 188px;
+    height: 245px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 412px;
+    top: 19px;
+    transform: rotate(41deg);
+}
+
+.ojoIzq {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  top: 158px;
+  left: 205px;
+  z-index: 2;
+}
+
+.ojoDer {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    top: 158px;
+    left: 376px;
+    z-index: 2;
+  }
