@@ -4,11 +4,14 @@
     box-sizing: border-box;
   }
   
-  /* estilos base Mobile first  */
-  
   body {
-    background: linear-gradient(rgb(70, 76, 79), rgb(35, 38, 39));
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,208,240,1) 98%, rgba(103,208,240,1) 100%);
     min-height: 100vh;
+  }
+
+  img {
+    width: 100%;
   }
   
   header h1 {
@@ -20,10 +23,11 @@
   }
   
   .blogList {
+    background-color: white;
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    border: 1px solid #000;
+    border: 1px solid #000; 
   }
   
   .post {
@@ -34,11 +38,19 @@
     margin: 20px 0;
   }
   
-  /* tablets */
+
   @media screen and (min-width: 768px) {
     .post {
       width: 45%;
       display: inline-block;
-      margin: 20px 0.5%;
+      margin: 20px 2%;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .post {
+      width: 29%;
+      display: inline-block;
+      margin: 20px 15px;
     }
   }

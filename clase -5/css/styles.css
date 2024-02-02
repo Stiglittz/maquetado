@@ -4,53 +4,88 @@
     box-sizing: border-box;
   }
   
-  /* 
-      estilos base para pantallas de 
-      600px hacia abajo 
-      o mobile
-  */
-  
-  .contenedorNoResponsivo {
-    width: 450px;
-    height: 200px;
-    background-color: aquamarine;
+  body {
+    background-color: gray;
   }
-  
-  .contenedorResponsivo {
-    margin-top: 10px;
-    width: 100%;
-    height: 200px;
-    background-color: rgb(32, 51, 94);
+
+  .tablet {
+    display: none;
   }
-  
-  .cajaMorada {
-    background-color: purple;
-    height: 100px;
-    padding: 50px;
-    max-width: 300px;
+
+  .desktop{
+    display: none;
   }
-  
-  /* media queries */
-  
-  /* estilos para tablet */
-  /* 1380px */
+
+  .xxl {
+    display: none;
+  }
+
+
   @media screen and (min-width: 768px) {
-    .contenedorNoResponsivo {
+    body {
       background-color: green;
       height: 250px;
     }
-  }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: block;
+    }
   
-  /* estilos para laptop normal */
+    .desktop{
+      display: none;
+    }
+  
+    .xxl {
+      display: none;
+    }
+
+  }
+
   @media screen and (min-width: 992px) {
-    .contenedorNoResponsivo {
+    body {
       background-color: red;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: none;
+    }
+  
+    .desktop{
+      display: block;
+    }
+  
+    .xxl {
+      display: none;
     }
   }
   
-  /* estilos para laptop hd */
-  @media screen and (min-width: 1440px) {
-    .contenedorNoResponsivo {
+
+  @media screen and (min-width: 1980px) {
+    body {
       background-color: yellow;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .tablet {
+      display: none;
+    }
+  
+    .desktop{
+      display: none;
+    }
+  
+    .xxl {
+      display: block;
     }
   }
