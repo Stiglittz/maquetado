@@ -1,0 +1,11 @@
+.indiceLetra {
+    background-color: #343334;
+    color: #67de74;
+    padding-left: 10px;
+    position: sticky;
+    top: 5px;
+}
+
+li {
+    list-style: none;
+}
