@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: dotted;
+    margin-top: 10px;
+}
+
+.cajaRoja {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(122, 4, 4);
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+

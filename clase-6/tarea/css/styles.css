@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.signIn {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282a35;
+    color: #bababd;
+    padding: 5px 10px;
+}
+
+nav a {
+    margin: 0 5px;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+nav a:visited {
+    color: #bababd;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex-grow: 1;
+    background-color: #e7e9eb;
+    width: 15%;
+    padding: 10px;
+}
+
+.stickyAside {
+    position: sticky;
+    top: 0px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #000000;
+    background-color: #cccccc;
+}
+
+
+ul li:active,
+ul li:focus {
+  background-color: #04aa6d;
+  color: #ffffff;
+}
+
+ul li a {
+    color: #0e0e0e;
+    font-size: small;
+}
+
+section {
+    flex-grow: 2;
+    width: 100%;
+    padding: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#ad:target {
+    border: 1px solid #04aa6d;
+    border-radius: 5px;
+}
+
+#doc:target {
+    border: 1px solid #04aa6d;
+    border-radius: 5px;
+}
+
+#a:target {
+    border: 1px solid #04aa6d;
+    border-radius: 5px;
+}
+
+#abbr:target {
+    border: 1px solid #04aa6d;
+    border-radius: 5px;
+}
+
+#big:target {
+    border: 1px solid #04aa6d;
+    border-radius: 5px;
+}
+
+
