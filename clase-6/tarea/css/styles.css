@@ -13,7 +13,7 @@ header {
     width: 100%;
 }
 
-img {
+header img {
     width: 30px;
     height: 30px;
 }
@@ -22,6 +22,16 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+}
+
+.buttonSign {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #04aa6d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
 }
 
 nav {
@@ -109,29 +119,83 @@ section {
     margin-bottom: 20px;
 }
 
-#ad:target {
-    border: 1px solid #04aa6d;
-    border-radius: 5px;
+.description img {
+    width: 100%;
 }
 
-#doc:target {
-    border: 1px solid #04aa6d;
-    border-radius: 5px;
+.botones {
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-#a:target {
-    border: 1px solid #04aa6d;
+.buttonGreen {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #04aa6d;
+    padding: 5px 10px;
     border-radius: 5px;
+    border-style: none;
 }
 
-#abbr:target {
-    border: 1px solid #04aa6d;
-    border-radius: 5px;
+.buttonGreen:hover {
+    background-color: #087a50;
+    border-color: #04AA6D;;
 }
 
-#big:target {
-    border: 1px solid #04aa6d;
+.buttonCenter {
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-style: none;
     border-radius: 5px;
+    border: rgb(156, 156, 156) 1px solid;
 }
 
 
+
+.buttonGreen-mobile {
+    display: none;
+}
+
+.buttonCenter:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+#ad:target, #doc:target, #a:target, #abbr:target, #acronym:target, #address:target, #applet:target,
+#area:target, #article:target, #aside:target, #audio:target, #b:target, #base:target, #basefront:target,
+#bdi:target, #bdo:target, #big:target, #big:target, #blockquote:target, #body:target, #br:target
+{
+    border: 2px solid #aaa;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #888; 
+}
+
+@media screen and (max-width: 600px) {
+
+    .buttonGreen {
+        display: none;
+    }
+
+    .buttonGreen-mobile {
+        display: inline;
+        width: 50px;
+        height: 50px;
+    }
+
+    aside {
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 992px) {
+    
+    aside {
+        display: none;
+    }
+
+  }
